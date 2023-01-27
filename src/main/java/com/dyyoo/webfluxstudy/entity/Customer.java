@@ -22,6 +22,10 @@ public class Customer {
     this.firstName = firstName;
   }
 
+  public void deleteId() {
+    this.id = null;
+  }
+
   @Override
   public String toString() {
     return "id: " + this.id + ", lastName: " + this.lastName + ", firstName: " + this.firstName;
